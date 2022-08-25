@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.Card{
+  width: 60%;
+  height: 100%;
+  border-radius: 2rem !important;
+}
+.amountContainer{
+  margin-top: 1rem !important;
+}
+.inputFields{
+  width: 20rem !important;
+  height: 3rem !important;
+}
+.amountField{
+  height: 1rem !important;
+  width: 20rem !important;
+}
+.switchButton{
+  height: 3rem !important;
+  max-width: 2rem !important;
+  margin-top: 4rem !important;
+}
+.image{
+  vertical-align: bottom !important;
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .switchButton{
+    height: 3rem !important;
+    max-width: 2rem !important;
+    margin-top: 3.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .Card{
+    width: 100%;
+    height: 100%;
+  }
+  .calculateButton{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+}
